@@ -1,0 +1,7 @@
+import qrcode
+
+dado = str (input("Qual o dado? " ))
+
+
+img = qrcode.make(dado)
+img.show()
